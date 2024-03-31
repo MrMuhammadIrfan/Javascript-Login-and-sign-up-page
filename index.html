@@ -1,0 +1,29 @@
+<html>
+<body>
+
+<h1>JavaScript Arrays</h1>
+<h2>The push() Method</h2>
+
+<p>push() adds new items to the end of an array:</p>
+<button id="signup" onclick="signup()">SignUp</button>
+
+<p id="demo"></p>
+
+<script>
+const user = [];
+
+
+
+function signup(){
+    user.push(prompt("Enter the username or mobile number"));
+    user.push(prompt("Enter the password"));
+    // document.getElementById("signup").innerHTML = user;
+    console.log(user);
+
+}
+
+
+</script>
+
+</body>
+</html>
